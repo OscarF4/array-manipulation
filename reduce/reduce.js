@@ -26,7 +26,7 @@ const ordenesFebrero = [
 
 //2. Mapeamos para solo tener los valores de las ordenes
 const valoresVentas = ordenesFebrero.map(item => item.valor);
-console.log(valoresVentas);
+console.log(valoresVentas); //[18000, 52500, 65000, 11200]
 
 //3. Reduce() para sacar el total de ventas del mes
 
