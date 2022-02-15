@@ -11,3 +11,7 @@ const numbers = [
 
 const rta = numbers.find(item => item.name === 'Oscar');
 console.log(rta);
+
+//FindIdex()
+const rta2 = numbers.findIndex(item => item.name === 'Laura');
+console.log(rta2);
