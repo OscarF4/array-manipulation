@@ -35,6 +35,7 @@ function flatMatrix(list) {
     }
     return flatNewArray
 }
+console.log(flatMatrix(matrix));
 
 //Flat()
 const arrayFinalFlat = matriz.flat(9);
